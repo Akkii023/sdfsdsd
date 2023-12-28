@@ -1,0 +1,89 @@
+body {
+  background-color: #f8f3f3; /* Soft pink background */
+  font-family: 'Arial', sans-serif;
+}
+
+#quiz-container, #marriage-container {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#question-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.option {
+  background-color: #ffd9d9; /* Light pink for answer options */
+  color: #333;
+  font-size: 16px;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.option:hover {
+  background-color: #ffcccc; /* Slightly darker pink on hover for options */
+}
+
+#answer-popup, #missed-popup, #marriage-popup {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+#answer-popup button, #missed-popup button, #marriage-popup button {
+  background-color: #ffd9d9; /* Light pink for buttons */
+  color: #333;
+  font-size: 16px;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#answer-popup button:hover, #missed-popup button:hover, #marriage-popup button:hover {
+  background-color: #ffcccc; /* Slightly darker pink on hover for buttons */
+}
+
+#marriage-popup button#yes-button-marriage:hover {
+  background-color: #ff9999; /* Lighter red on hover for 'Yes' button */
+}
+
+#options-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#marriage-question {
+  color: #ff3366; /* Pink for the marriage question */
+  font-size: 24px;
+}
+
+#no-button-marriage {
+  position: absolute;
+  font-size: 20px;
+  color: #ff3366; /* Pink for 'No' button */
+  transform: rotate(-20deg);
+}
+
+#no-button-marriage:hover {
+  color: #ff6699; /* Lighter pink on hover for 'No' button */
+}
+
+#heart-icon {
+  color: #ff3366; /* Heart color */
+  font-size: 24px;
+  margin-right: 5px;
+}
